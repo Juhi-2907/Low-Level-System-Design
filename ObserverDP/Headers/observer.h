@@ -1,13 +1,14 @@
+#ifndef OBSERVER_H
+#define OBSERVER_H
 #include <string>
 
 using namespace std;
 
-#ifndef OBSERVER_H
-#define OBSERVER_H
 class Observer{
     int userId;
     public:
+    Observer();
     Observer(int id);
     void update(string message);
 };
-#endif
+#endif //OBSERVER_H
